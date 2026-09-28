@@ -174,7 +174,6 @@ def shap_chart(model, background, input_df, feat_cols, pred_class, nutrient_labe
         "age":                       "Age",
         "sex":                       "Sex",
         "ethnicity":                 "Ethnicity",
-        "income_to_poverty_ratio":   "Income level",
         "education":                 "Education level",
         "dietary_vitamin_d_mcg":     "Dietary Vitamin D intake",
         "dietary_vitamin_b12_mcg":   "Dietary Vitamin B12 intake",
