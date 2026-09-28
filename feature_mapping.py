@@ -13,7 +13,6 @@ NHANES_FEATURES = {
     "age":                      "RIDAGEYR",   # DEMO_H
     "sex":                      "RIAGENDR",   # DEMO_H  (1=Male, 2=Female)
     "ethnicity":                "RIDRETH3",   # DEMO_H
-    "income_to_poverty_ratio":  "INDFMPIR",   # DEMO_H
     "education":                "DMDEDUC2",   # DEMO_H
 
     # dietary intake (24-hr recall, food only)
@@ -114,21 +113,6 @@ UAE_SURVEY = [
             ("Postgraduate degree (Master's/PhD)",  5),
         ],
         "default": "Bachelor's degree",
-    },
-    {
-        "feature": "income_to_poverty_ratio",
-        "label":   "How would you describe your household income level?",
-        "type":    "select",
-        # INDFMPIR is a continuous 0–5 ratio; we map ordinal bands
-        "options": [
-            ("Low income",          1.0),
-            ("Lower-middle income", 2.0),
-            ("Middle income",       3.0),
-            ("Upper-middle income", 4.0),
-            ("High income",         5.0),
-        ],
-        "default": "Middle income",
-        "help":    "Used as a socioeconomic proxy for diet quality and supplement access.",
     },
 
     # ── Sun Exposure / Season proxy ──────────────────────────────────────────
