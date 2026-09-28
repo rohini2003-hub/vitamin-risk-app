@@ -105,7 +105,6 @@ def render_survey():
         "☀️ Sun Exposure & Activity": ["exam_season", "sedentary_minutes_per_day", "vigorous_activity"],
         "🥗 Diet":                   ["dietary_vitamin_d_mcg", "dietary_vitamin_b12_mcg"],
         "💊 Supplements":            ["takes_any_supplement", "supplement_vitamin_d_mcg", "supplement_vitamin_b12_mcg"],
-        "🚬 Lifestyle":              ["smoking_status"],
     }
 
     # build a lookup from feature name → question definition
@@ -185,7 +184,6 @@ def shap_chart(model, background, input_df, feat_cols, pred_class, nutrient_labe
         "sedentary_minutes_per_day": "Sedentary time per day",
         "vigorous_activity":         "Vigorous physical activity",
         "exam_season":               "Season / sun exposure",
-        "smoking_status":            "Smoking status",
     }
     labels = [pretty.get(f, f) for f in feat_names]
 
