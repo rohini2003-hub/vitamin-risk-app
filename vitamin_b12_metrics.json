@@ -1,0 +1,23 @@
+{
+  "results": {
+    "LogisticRegression": {
+      "accuracy": 0.43486238532110094,
+      "precision_macro": 0.35440006647998673,
+      "recall_macro": 0.37154310364519844,
+      "f1_macro": 0.27224153296696896
+    },
+    "DecisionTree": {
+      "accuracy": 0.3477064220183486,
+      "precision_macro": 0.3494661776358245,
+      "recall_macro": 0.38401281654066005,
+      "f1_macro": 0.23583180293632924
+    },
+    "RandomForest": {
+      "accuracy": 0.8,
+      "precision_macro": 0.3572015480898419,
+      "recall_macro": 0.3605530390702442,
+      "f1_macro": 0.3583567612034855
+    }
+  },
+  "best_model": "RandomForest"
+}
