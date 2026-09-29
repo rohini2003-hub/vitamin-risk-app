@@ -1,8 +1,0 @@
-pandas
-numpy
-scikit-learn
-shap
-streamlit
-xport
-matplotlib
-joblib
